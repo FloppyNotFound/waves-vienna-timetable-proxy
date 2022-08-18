@@ -1,0 +1,8 @@
+name = "waves-vienna-timetable-proxy"
+main = "src/index.ts"
+compatibility_date = "2022-08-18"
+
+[vars]
+TIMETABLE_URL = "https://www.wavesvienna.com/wp-admin/admin-ajax.php?action=wcs_get_events_json&content[wcs_type][]=239&content[wcs_type][]=238&content[wcs_type][]=237&content[wcs_room][]=97&content[wcs_room][]=94&content[wcs_room][]=80&content[wcs_room][]=82&content[wcs_room][]=4914&content[wcs_room][]=4923&content[wcs_room][]=4918&content[wcs_room][]=4900"
+DATE_FROM = "2022-09-08"
+DATE_TO = "2022-09-11"
